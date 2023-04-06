@@ -1,0 +1,215 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+#navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    
+}
+#navbar a{
+    color: #fff;
+}  
+#navbar h1 {
+    color: #fff;
+    padding: 20px;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    list-style: none;
+}
+#navbar ul li a {
+    padding: 20px;
+}
+#navbar ul li a:hover{
+    background-color: #B3B6B7;
+    color: yellow;
+    transition: all ease-in-out 0.8s;
+}
+#header{
+    background:linear-gradient(to top left,rgba(0,0,0,0.7),rgba(0,0,0,0.5)), 
+    url(./jens-kreuter-ngMtsE5r9eI-unsplash.jpg) no-repeat center center/cover;
+    height: 88.8vh;
+    width: 100%;
+    text-align: center;
+}
+#header .headercontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    color: #fff;
+    font-size: 35px;
+}
+
+.button{
+    display: inline-block;
+    background-color: black;
+    color: #fff;   
+    padding: 15px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 20px;
+}
+.button:hover{
+    background-color: black;
+    color: yellow;
+    transition: all ease-out 0.7s;
+}
+#main{
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 81%, 86% 96%, 50% 100%, 10% 97%, 0 83%, 0% 35%, 0 0);
+
+}
+.bglight{
+    background-color:#333;
+    color: #fff;
+}
+#main .mainheading{
+    text-align: center;
+}
+.colortext{
+    color: yellow;
+}
+#main .boxes{
+    text-align: center;
+    display: flex;
+}
+#main .boxes .box{
+    flex: 1;
+    padding: 25px;
+    
+    font-size: 19px;
+}
+#main .boxes .box i{
+    background-color: yellow;
+    color: black;
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#product{
+    background:  url(./CrystalUHD_PC.avif)no-repeat center center/cover;
+    height: 88.8vh;
+    width: 100%;    
+}
+#product .maincontent{
+    color: #fff;
+}
+#product .maincontent .sectionhead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+#product .maincontent .sectiondown{
+    display: flex;
+    padding-top: 350px;
+    justify-content:  center;
+    font-size: 55px;
+}
+#partners .partnershead{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+ .plogo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+#partners .plogo div {
+    margin: 30px;
+}
+
+#product2{
+    background:  url(./Desktop_WM_1440-810_new.webp)no-repeat center center/cover;
+    height: 88.8vh;
+    width: 100%;    
+}
+#product2 .maincontent2{
+    color: black;
+}
+#product2 .maincontent2 .sectionhead2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+#product2 .maincontent2 .sectiondown2{
+    display: flex;
+    padding-top: 350px;
+    justify-content:  center;
+    font-size: 55px;
+}
+#details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+    line-height: 50px;
+}
+#details ul{
+    display: flex;
+    list-style: none;
+}
+#details ul li{
+padding: 20px;
+}
+#details .dhead{
+   font-size: 35px; 
+}
+#details .detailsp{
+    font-size: 25px; 
+}
+#details .dhead2{
+    font-size: 35px; 
+}
+.dtextcolor{
+    color: yellow;
+}
+#product3{
+    background:  url(./kv_group_PC_v2.avif)no-repeat center center/cover;
+    height: 88.9vh;
+    width: 100%;
+    text-align: center;    
+}
+#product3 .maincontent3{
+    color:black;
+}
+#product3 .maincontent3 .sectionhead3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+.button2{
+    display: inline-block;
+    background-color: black;
+    color: #fff;   
+    padding: 15px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 20px;
+    margin-top: 370px;
+}
+.button2:hover{
+    background-color: black;
+    color: yellow;
+    transition: all ease-out 0.3s;
+}
